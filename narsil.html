@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Narsil</title>
+  <meta name="description" content="Narsil, plataforma operativa de Cypher Intelligence para OSINT, SOCMINT y V.HUMINT.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0a0f0f">
+  <link rel="icon" href="assets/cypher-logo.png">
+  <link rel="preload" href="assets/fonts/Netron.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top" role="banner">
+      <a href="index.html" aria-label="Volver a inicio">
+        <img class="logo" src="assets/cypher-logo.png" alt="Logotipo de Cypher Intelligence">
+      </a>
+      <div class="brand">
+        <div class="title">Cypher Intelligence</div>
+        <div class="tag muted">CYber Professionals for Homeland Electronic Response</div>
+        <div class="ops-line"><strong>OSINT</strong> · <strong>SOCMINT</strong> · <strong>V.HUMINT</strong></div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero card">
+        <div class="btns hero-nav">
+          <a class="btn" href="index.html">Inicio</a>
+          <a class="btn" href="narsil.html" aria-current="page">Narsil</a>
+          <a class="btn" href="correlax.html">CorrelAX</a>
+          <a class="btn" href="giv-nav.html">GIV Nav</a>
+          <a class="btn" href="osint-analyzer.html">OSINT Analyzer</a>
+          <a class="btn" href="metodologias.html">El método Cypher</a>
+          <a class="btn" href="cyber-intel-360.html">Cyber Intel 360&ordm;</a>
+          <a class="btn" href="nosotros.html">Sobre nosotros</a>
+          <a class="btn" href="mailto:cypherintel@outlook.com">Contacto</a>
+          <a class="btn btn-linkedin" href="https://www.linkedin.com/company/cypherintelligence" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Cypher Intelligence"><span class="li-icon" aria-hidden="true">in</span></a>
+        </div>
+      </section>
+
+      <section class="card narsil">
+        <h1>NARSIL</h1>
+        <img src="assets/Narsil-logo.png" alt="Logo NARSIL" class="img-square float-left large">
+        <p>
+          <strong>N.A.R.S.I.L.</strong> (Navigational Agent for Reconnaissance, SOCMINT & Investigation Lab)
+          es una <strong>plataforma de operaciones diseñada para analistas de inteligencia</strong>. Su objetivo es simple:
+          operar más rápido, con menos fricción y con mejor compartimentación, priorizando la seguridad operacional en actividades
+          <strong>OSINT, SOCMINT y V.HUMINT</strong>.
+        </p>
+
+        <p>
+          Destaca por su capacidad para gestionar múltiples identidades digitales de forma simultánea. Integra además agentes de inteligencia artificial que apoyan las fases de
+          obtención y análisis, junto con una terminal asistida por IA para ejecutar comandos, scripts
+          y utilidades avanzadas. Desde un único marco de trabajo, permite desplegar un ecosistema
+          completo de herramientas sin necesidad de instalaciones, máquinas virtuales ni
+          configuraciones complejas. Y lo más importante:
+          <strong>todos los recursos se subordinan al ciclo analítico, no al revés.</strong>
+        </p>
+
+        <img src="assets/shards-logo.png" alt="Logo Shards" class="img-square float-right medium">
+        
+        <p class="narsil-shards-intro">
+          Dentro de NARSIL, una pieza clave son los <strong>Shards (of NARSIL)</strong>, una serie de
+          <strong>scripts modulares multiservicio</strong> diseñados para la
+          <strong>obtención de información mediante técnicas de web scraping dinámico</strong>.
+          Su arquitectura flexible permite desplegar módulos especializados para distintas plataformas y escenarios,
+          sin necesidad de modificar la base del navegador.
+        </p>
+
+        <p>
+          <strong>Shards</strong> transforma a NARSIL en un <strong>entorno de recolección activa</strong>
+          capaz de interactuar con redes sociales, foros y otros servicios en tiempo real.
+        </p>
+
+        <ul>
+          <li><strong>Modularidad total:</strong> cada shard es un bloque autónomo que se puede añadir, actualizar o retirar.</li>
+          <li><strong>Multi-servicio:</strong> un solo entorno para trabajar con múltiples plataformas.</li>
+          <li><strong>Diseño inteligente:</strong> creado por analistas para analistas, <strong>"aquí usamos el ratón"</strong>.</li>
+          <li><strong>Operaciones silenciosas:</strong> diseñados para reducir huella digital y preservar la <strong>OPSEC</strong> durante la navegación.</li>
+          <li><strong>Orientación práctica:</strong> pensado para tareas de <strong>ciberinteligencia</strong>, seguimiento de narrativas e identificación de actores en línea.</li>
+        </ul>
+
+        <p class="muted small">
+          Si quieres probarla, <a href="mailto:cypherintel@outlook.com">ponte en contacto con nosotros</a>.
+        </p>
+      </section>
+    </main>
+
+    <section class="brand-banner">
+      <img src="assets/cypher-banner.png" alt="Cypher Intelligence - Cyber Professionals for Homeland Electronic Response">
+    </section>
+
+    <footer class="foot">
+      <div>© <span id="y"></span> Cypher Intelligence. Todos los derechos reservados.</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GIV Nav</title>
+  <meta name="description" content="GIV Nav, herramienta de navegación y análisis para investigación digital.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0a0f0f">
+  <link rel="icon" href="assets/cypher-logo.png">
+  <link rel="preload" href="assets/fonts/Netron.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top" role="banner">
+      <a href="index.html" aria-label="Volver a inicio">
+        <img class="logo" src="assets/cypher-logo.png" alt="Logotipo de Cypher Intelligence">
+      </a>
+      <div class="brand">
+        <div class="title">Cypher Intelligence</div>
+        <div class="tag muted">CYber Professionals for Homeland Electronic Response</div>
+        <div class="ops-line"><strong>OSINT</strong> · <strong>SOCMINT</strong> · <strong>V.HUMINT</strong></div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero card">
+        <div class="btns hero-nav">
+          <a class="btn" href="index.html">Inicio</a>
+          <a class="btn" href="narsil.html">Narsil</a>
+          <a class="btn" href="correlax.html">CorrelAX</a>
+          <a class="btn" href="giv-nav.html" aria-current="page">GIV Nav</a>
+          <a class="btn" href="osint-analyzer.html">OSINT Analyzer</a>
+          <a class="btn" href="metodologias.html">El método Cypher</a>
+          <a class="btn" href="cyber-intel-360.html">Cyber Intel 360&ordm;</a>
+          <a class="btn" href="nosotros.html">Sobre nosotros</a>
+          <a class="btn" href="mailto:cypherintel@outlook.com">Contacto</a>
+          <a class="btn btn-linkedin" href="https://www.linkedin.com/company/cypherintelligence" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Cypher Intelligence"><span class="li-icon" aria-hidden="true">in</span></a>
+        </div>
+      </section>
+
+      <section class="card tool-suite">
+        <div class="tool-top">
+          <div class="tool-logo-slot">
+            <img class="tool-logo-image" src="assets/givnav.png" alt="Logo de GIV Nav">
+          </div>
+          <div class="tool-copy">
+            <h1>GIV Nav Intelligence</h1>
+            <p class="lead">Solución orientada al análisis avanzado de actividad digital, diseñada para interpretar información procedente de entornos de navegación y artefactos técnicos con un enfoque contextual. La herramienta transforma registros complejos y estructuras de datos en una lectura comprensible del comportamiento digital, identificando trazas relevantes, relaciones técnicas y secuencias de uso que normalmente pasarían desapercibidas. Su objetivo no es solo mostrar información, sino ayudar a entenderla, aportando claridad allí donde los datos son densos, fragmentados o difíciles de interpretar.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="brand-banner">
+      <img src="assets/cypher-banner.png" alt="Cypher Intelligence - Cyber Professionals for Homeland Electronic Response">
+    </section>
+
+    <footer class="foot">
+      <div>© <span id="y"></span> Cypher Intelligence. Todos los derechos reservados.</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
