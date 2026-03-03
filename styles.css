@@ -378,20 +378,20 @@ ul+ul{
   border-radius:20px;
 }
 
-#cyber-intel-360 .tool-logo-slot{
+#cypher-intel-lab .tool-logo-slot{
   padding:4px;
   overflow:hidden;
 }
 
-#cyber-intel-360 .tool-logo-image{
+#cypher-intel-lab .tool-logo-image{
   object-fit:cover;
 }
 
-[id^="cyber-intel-360"] .tool-logo-slot{
+[id^="cypher-intel-lab"] .tool-logo-slot{
   margin-top:10px;
 }
 
-[id^="cyber-intel-360"] .tool-logo-image{
+[id^="cypher-intel-lab"] .tool-logo-image{
   object-fit:cover;
   object-position:center 56%;
 }
